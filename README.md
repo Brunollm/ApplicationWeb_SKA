@@ -47,5 +47,8 @@
   ![tarefas](https://github.com/Brunollm/ApplicationWeb_SKA/assets/110358647/ccae9c2c-4d42-4e56-8706-a8b35ffabf82)
 
 
+## IMPORTANTE!⚠️⚠️⚠️
+
+### Para a utilização correta dessa aplicação você deve refazer a conecxão do servidor e também a migração!
 
 

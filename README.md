@@ -47,17 +47,33 @@
   ![tarefas](https://github.com/Brunollm/ApplicationWeb_SKA/assets/110358647/ccae9c2c-4d42-4e56-8706-a8b35ffabf82)
 
 ## Requerimentos
-
-+ SQL Server
++ Ferramentas:
   
-  + Pacotes Nuget:
+  + SQL Server
+  + Visual Studio (recomendado)
+  
++ Pacotes Nuget:
     
   + Microsoft.EntityFrameworkCore
   + Microsoft.EntityFrameworkCore.Tools
   + Microsoft.EntityFrameworkCore.SqlServer
 
-## Inicialização da aplicação:
 
+## Inicialização da aplicação:
+  +    Instale o SQL Server e os pacotes Nugets referidos no requerimento acima.
+  +    Abra o arquivo appsettings.json, altere a linha 10, “DefaultConnection”, e substitua os valores direcionando ao seu Servidor. Em seguida defina um nome para o Database a ser usado
+Exemplo: 
+~~~json
+"DefaultConnection": "Server=<NOME DO SERVIDOR>;Database=<NOME DO DATASE>;Trusted_Connection=True;TrustServerCertificate=True;Encrypt=False"
+~~~
+  +    Salve o documento appsetttings.json
+  +   Abra o Console do Gerenciador de Pacotes
+  +    Digite os seguintes comandos para criar o Banco de Dados e Tabelas:
+~~~
+add-migration AddCategoryDb
+update-database
+~~~
+  +    Após a criação do Banco de Dados, depure a aplicação para executá-la.
 
 
 

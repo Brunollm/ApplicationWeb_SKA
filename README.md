@@ -2,7 +2,7 @@
 
 > Status: Concluido ✅
 
-### Essa é uma ApplicationWeb feita para gerenciar tarefas onde pode-se criar,atualizar e remover uma ou mais tarefas, você também colocar descrição, prioridade e status.
+### Essa é uma ApplicationWeb feita para gerenciar tarefas onde pode-se criar, atualizar e remover uma ou mais tarefas, você também colocar descrição, prioridade e status.
 
 ## Os campos para preenchimento são:
 
@@ -20,7 +20,7 @@
 + EntityFramework
 + SQL Server
 
-## Segue prints das telas da aplicação:
+## Prints das telas da aplicação:
 
 + Home
   ![home](https://github.com/Brunollm/ApplicationWeb_SKA/assets/110358647/b82af489-3524-4550-b3b5-0a34450c8023) 
@@ -46,9 +46,18 @@
 + Tarefas Removidas
   ![tarefas](https://github.com/Brunollm/ApplicationWeb_SKA/assets/110358647/ccae9c2c-4d42-4e56-8706-a8b35ffabf82)
 
+## Requerimentos
 
-## IMPORTANTE!⚠️⚠️⚠️
++ SQL Server
+  
+  + Pacotes Nuget:
+    
+  + Microsoft.EntityFrameworkCore
+  + Microsoft.EntityFrameworkCore.Tools
+  + Microsoft.EntityFrameworkCore.SqlServer
 
-### Para a utilização correta dessa aplicação você deve refazer a conecxão do servidor e também a migração!
+## Inicialização da aplicação:
+
+
 
 

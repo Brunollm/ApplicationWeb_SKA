@@ -2,7 +2,7 @@
 
 > Status: Concluido ✅
 
-### Essa é uma ApplicationWeb feita para gerenciar tarefas onde pode-se criar, atualizar e remover uma ou mais tarefas, você também colocar descrição, prioridade e status.
+### Essa é uma ApplicationWeb feita para gerenciar tarefas onde pode-se criar, atualizar e remover uma ou mais tarefas, você também pode colocar descrição, prioridade e status.
 
 ## Os campos para preenchimento são:
 
